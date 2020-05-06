@@ -25,6 +25,16 @@ module.exports = {
   }
 };
 ```
-## CSS
+## CSS to js
 
 $ yarn add -D css-loader style-loader
+
+## Sass
+
+$ yarn add sass-loader node-sass
+
+$ yarn add stylus-loader
+
+---
+
+$ yarn add -D webpack-dev-server
