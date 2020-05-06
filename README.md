@@ -1,11 +1,18 @@
 # WebPack Dev
 
+## Set WebPack
+
+https://webpack.js.org/
+
 - if Windows
    - use nodist / node ver 10xx
 
 $ yarn add -D webpack webpack-cli
 
-- Create ` webpack.config.js`
+### Create Path/file
+- src\index.js
+
+### Create ` webpack.config.js`
 
 ```js
 const path = require('path');
@@ -18,3 +25,6 @@ module.exports = {
   }
 };
 ```
+## CSS
+
+$ yarn add -D css-loader style-loader
