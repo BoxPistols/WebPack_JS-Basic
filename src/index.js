@@ -1,2 +1,2 @@
 console.log("テスト")
-console.log("ほげ---")
+console.log("おご")
