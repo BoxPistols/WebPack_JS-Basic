@@ -10,7 +10,7 @@ module.exports = {
   devServer:{
     contentBase: path.resolve(__dirname, '')
   },
-   module: {
+  module: {
     rules: [
       { test: /\.(sass|scss)$/,
         // use: ["style-loader", "css-loader", "sass-loader"]

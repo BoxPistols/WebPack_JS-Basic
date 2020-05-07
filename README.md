@@ -46,7 +46,7 @@ $ yarn add -D @babel/preset-env
 
 ### Create .babelrc
 
-```.json
+```json
 {
   "presets": ["@babel/preset-env"]
 }
@@ -60,5 +60,16 @@ $ yarn add -D mini-css-extract-plugin
 
 ### update config
 
+```js
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+plugins: [new MiniCssExtractPlugin({
+  filename: 'style.css',
+})],
+```
 
 ---
+
+## Bootstrap install
+
+$ yarn add -D bootstrap
