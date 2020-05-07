@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".border-red {\\n  border: 4px solid orange; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/style.sass?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".border-red {\\n  border: 4px solid blue; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/style.sass?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -129,7 +129,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.sass */ \"./src/style.sass\");\n/* harmony import */ var _style_sass__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_sass__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nfunction hello(name, age){\r\n  console.log('Hello'  + name + age)\r\n  return name + age\r\n}\r\n\r\nconst resultParam = hello('Whe!', 32)\r\nconsole.log(resultParam)\r\n\r\ndocument.write(resultParam)\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.sass */ \"./src/style.sass\");\n/* harmony import */ var _style_sass__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_sass__WEBPACK_IMPORTED_MODULE_0__);\n\nwindow.addEventListener('load', function () {\n  alert('ばべ');\n});\n\nfunction hello(name, age) {\n  console.log('Hello' + name + age);\n  return name + age;\n}\n\nvar resultParam = hello('Whe!', 32);\nconsole.log(resultParam);\ndocument.write(resultParam);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

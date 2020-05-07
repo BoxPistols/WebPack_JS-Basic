@@ -38,3 +38,8 @@ $ yarn add stylus-loader
 ---
 
 $ yarn add -D webpack-dev-server
+
+## Babel
+
+$ yarn add -D babel-loader @babel/core
+$ yarn add -D @babel/preset-env
