@@ -1,1 +1,0 @@
-"use strict";function hello(e,l){return console.log("Hello"+e+l),e+l}require("./style.sass");var resultParam=hello("Whe!",32);console.log(resultParam),document.write(resultParam);

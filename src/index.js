@@ -1,4 +1,4 @@
-import './style.sass'
+import './css/style.sass'
 
 /*
   関数定義
