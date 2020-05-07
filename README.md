@@ -43,3 +43,22 @@ $ yarn add -D webpack-dev-server
 
 $ yarn add -D babel-loader @babel/core
 $ yarn add -D @babel/preset-env
+
+### Create .babelrc
+
+```.json
+{
+  "presets": ["@babel/preset-env"]
+}
+```
+
+---
+
+## CSS Separation
+
+$ yarn add -D mini-css-extract-plugin
+
+### update config
+
+
+---
