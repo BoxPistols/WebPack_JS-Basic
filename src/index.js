@@ -16,7 +16,10 @@ const  hello2 = (name, age)  =>{
   return name + age
 }
 
-const resultParam = hello2('Im', 32)
-console.log(resultParam)
+// const resultParam = hello2('Im', 32)
+// console.log(resultParam)
+// document.write(resultParam)
 
-document.write(resultParam)
+import { helloWorld } from './module'
+
+helloWorld();

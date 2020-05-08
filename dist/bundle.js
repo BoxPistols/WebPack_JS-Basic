@@ -105,7 +105,19 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_style_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/style.sass */ \"./src/css/style.sass\");\n/* harmony import */ var _css_style_sass__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_style_sass__WEBPACK_IMPORTED_MODULE_0__);\n\n/*\r\n  関数定義\r\n*/\n// 無名関数\n// function hello(name, age){\n//   console.log('Hello'  + name + age)\n//   return name + age\n// }\n// 変数に関数を代入\n\nvar hello2 = function hello2(name, age) {\n  console.log('Hello' + name + age);\n  return name + age;\n};\n\nvar resultParam = hello2('Im', 32);\nconsole.log(resultParam);\ndocument.write(resultParam);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_style_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/style.sass */ \"./src/css/style.sass\");\n/* harmony import */ var _css_style_sass__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_style_sass__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./module */ \"./src/module.js\");\n\n/*\r\n  関数定義\r\n*/\n// 無名関数\n// function hello(name, age){\n//   console.log('Hello'  + name + age)\n//   return name + age\n// }\n// 変数に関数を代入\n\nvar hello2 = function hello2(name, age) {\n  console.log('Hello' + name + age);\n  return name + age;\n}; // const resultParam = hello2('Im', 32)\n// console.log(resultParam)\n// document.write(resultParam)\n\n\n\nObject(_module__WEBPACK_IMPORTED_MODULE_1__[\"helloWorld\"])();\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/module.js":
+/*!***********************!*\
+  !*** ./src/module.js ***!
+  \***********************/
+/*! exports provided: helloWorld */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"helloWorld\", function() { return helloWorld; });\nvar helloWorld = function helloWorld() {\n  console.log('Hello World!!');\n};\n\n//# sourceURL=webpack:///./src/module.js?");
 
 /***/ })
 
