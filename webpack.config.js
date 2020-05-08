@@ -8,7 +8,10 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer:{
-    contentBase: path.resolve(__dirname, '')
+    watchContentBase: true,
+    // contentBase: path.resolve(__dirname, './'),
+    contentBase: './',
+    open: true,
   },
   module: {
     rules: [
@@ -24,7 +27,9 @@ module.exports = {
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
     ]
   },
-  plugins: [new MiniCssExtractPlugin({
-    filename: 'style.css',
-  })],
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: 'style.css',
+    }),
+  ],
 };

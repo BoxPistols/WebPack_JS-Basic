@@ -329,9 +329,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
-    "start": "webpack-dev-server --open",
+    "start": "webpack-dev-server --open --hot --inline",
+    "st": "webpack-dev-server",
     "build": "webpack --mode production",
-    "watch": "webpack --mode development --watch"
+    "wt": "webpack --mode development --watch"
   },
   "author": "",
   "license": "ISC"
