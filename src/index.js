@@ -26,7 +26,7 @@ import { helloWorld } from './module'
 helloWorld();
 
 const person = {// 初期化
-  name: "fooちゃまお",// key / value
+  name: "fooちゃお",// key / value
   age: 23,
   team: {
     a: 'kobe',
