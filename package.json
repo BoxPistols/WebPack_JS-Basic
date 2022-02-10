@@ -184,7 +184,7 @@
     "neo-async": "^2.6.1",
     "nice-try": "^1.0.5",
     "node-libs-browser": "^2.2.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "normalize-path": "^3.0.0",
     "npm-run-path": "^2.0.2",
     "object-assign": "^4.1.1",
